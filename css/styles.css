@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+    font-size: 5.625rem;
+      margin: 50px auto 0 auto;
+      color:#000d39;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+    font-size: 1.85rem;
+      margin: 0 auto 0 auto;
+      color: #bb941d;
+}
+img{
+  height: 500px;
+}
+hr{
+  width: 100px;
+  border: none;
+  background-color: white;
+  border-top: 15px dotted grey;
+  margin: 50px auto 50px auto;
+}
+a{
+  color:#ffffff;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+
+/* Class Selectors */
+.img-photos{
+  height: 100px;
+    border-radius: 100%;
+}
+.top-container{
+  background-color: #ffffff;
+  padding-top: 50px;
+  position:relative;
+}
+.middle-container{
+  margin: 100px auto 50px auto;
+}
+.bottom-container{
+  background-color: #1687a7;
+  padding: 50px 0 10px;
+  margin: 100px auto 0px auto;
+}
+.right-fiu{
+  position:absolute;
+  right:300px;
+  height:70px;
+  top: 20px;
+  padding-bottom:0px;
+}
+.left-fiu{
+  position:absolute;
+  height:70px;
+  left: 300px;
+top:20px;
+padding-bottom:0px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
